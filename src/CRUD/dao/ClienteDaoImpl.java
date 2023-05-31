@@ -120,6 +120,7 @@ public class ClienteDaoImpl implements IClienteDao {
             e.printStackTrace();
         }		
         return eliminar;
+
     }
 
 }

@@ -14,14 +14,10 @@ public class CrudJavaDemo {
         controller.verClientes();
         
         Cliente cliente = new Cliente(99, "Maria", "Rodriguez","99999999X");
-        Cliente cliente1 = new Cliente(123, "Jose", "Perez","36157689X");
-        Cliente cliente2 = new Cliente(124, "Manuel", "Perez","36157689X");
-        Cliente cliente3 = new Cliente(125, "Manuel", "Perez","36157689X");
+
         // guarda un cliente a través del controlador
         controller.registrar(cliente);
-        controller.registrar(cliente1);
-        controller.registrar(cliente2);
-        controller.registrar(cliente3);
+
 
         // ver clientes de nuevo
         System.out.println("C_Clientes-tabla Ventas.Cliente (Create-CRUD)");
