@@ -1,0 +1,13 @@
+/*C1*/SET SCHEMA SYSTEM_LOBS
+INSERT INTO BLOCKS VALUES(0,2147483647,0)
+COMMIT
+/*C2*/SET SCHEMA PUBLIC
+CREATE TABLE libros (\u000a idLibro  int NOT NULL identity,\u000a titulo   VARCHAR(30), \u000a precio   float\u000a)
+CREATE TABLE autores ( idautor   INTeger  NOT NULL identity,\u000a nombre    VARCHAR(20),\u000a nacionalidad    VARCHAR(30))
+CREATE TABLE librosautores(autor integer not null  references autores(idautor),libro integer not null  references libros(idlibro),primary key(autor,libro))
+INSERT INTO AUTORES VALUES(0,'autor1','spain')
+COMMIT
+INSERT INTO LIBROS VALUES(0,'libro1',21.0E0)
+COMMIT
+INSERT INTO LIBROSAUTORES VALUES(0,0)
+COMMIT

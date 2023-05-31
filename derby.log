@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed May 31 21:08:15 CEST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0188-7335-f197-00000f26f290 
+on database directory E:\ProgramFicheros\CreacionBD\BD\librosApache with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886 
+Loaded from file:/E:/ProgramFicheros/CreacionBD/src/Librerias_XML_JSON/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=19.0.2+7-44
+user.dir=E:\ProgramFicheros\CreacionBD
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
