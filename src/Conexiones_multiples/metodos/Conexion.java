@@ -1,4 +1,4 @@
-package Conexiones.metodos;
+package Conexiones_multiples.metodos;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

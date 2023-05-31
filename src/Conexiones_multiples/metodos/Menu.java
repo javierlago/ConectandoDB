@@ -1,4 +1,4 @@
-package Conexiones.metodos;
+package Conexiones_multiples.metodos;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

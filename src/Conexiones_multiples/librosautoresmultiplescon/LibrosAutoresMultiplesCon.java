@@ -1,13 +1,13 @@
-package Conexiones.librosautoresmultiplescon;
+package Conexiones_multiples.librosautoresmultiplescon;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
-import Conexiones.metodos.Altas;
-import Conexiones.metodos.Conexion;
-import Conexiones.metodos.Consultas;
-import Conexiones.metodos.Creacion;
-import Conexiones.metodos.Menu;
+import Conexiones_multiples.metodos.Altas;
+import Conexiones_multiples.metodos.Conexion;
+import Conexiones_multiples.metodos.Consultas;
+import Conexiones_multiples.metodos.Creacion;
+import Conexiones_multiples.metodos.Menu;
 
 /**
  *
